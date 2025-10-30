@@ -5,26 +5,20 @@ namespace Leaderboard
     [Serializable]
     public class PlayerData
     {
-        public string name;
-        public int score;
-        public string avatar;
-        public PlayerType type;
-        public string typeImageUrl;
+        public string Name;
+        public int Score;
+        public string Avatar;
+        public PlayerType Type;
+        public string TypeImageUrl;
     }
 
     [Serializable]
     public enum PlayerType
     {
-        Diamond,
-        Gold,
-        Silver,
-        Bronze,
-        Default
-    }
-
-    [Serializable]
-    public class LeaderboardData
-    {
-        public PlayerData[] leaderboard;
+        Default = 0,
+        Bronze = 1,
+        Silver = 2,
+        Gold = 3,
+        Diamond = 4
     }
 }

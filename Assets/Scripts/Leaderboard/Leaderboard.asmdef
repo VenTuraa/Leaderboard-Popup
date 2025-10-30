@@ -4,7 +4,8 @@
     "references": [
         "SimplePopupManager",
         "Unity.Addressables",
-        "Unity.TextMeshPro"
+        "Unity.TextMeshPro",
+        "Zenject"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
